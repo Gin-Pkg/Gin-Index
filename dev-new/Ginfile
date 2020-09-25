@@ -1,1 +1,11 @@
-xccx
+installationCommands:
+- cd ..
+- cargo install --path dev-new
+testCommands:
+- test -f I
+dependencyFiles:
+
+source: https://github.com/jakobneufeld/dev-new.git
+name: dev-new
+conflicts:
+- h
